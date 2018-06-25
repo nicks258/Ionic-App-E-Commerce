@@ -5,4 +5,28 @@ page-home {
     .toolbar-title {
         color: #fff;
     }
+    .cart {
+        color: #f89a27;
+        float: right;
+        background-color: transparent;
+        box-shadow: unset;
+    }
+    .scroll-content {
+        padding: 0px!important;
+    }
+    ion-slides {
+        height: 50%!important;
+    }
+    ion-slides img {
+        border-radius: 5px;
+    }
+    .view {
+        background-color: #f89a27;
+        color: #ffffff;
+        float: right;
+        font-size: 1rem;
+    }
+    h3 {
+        color: #f89a27;
+    }
 }
