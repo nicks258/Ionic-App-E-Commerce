@@ -2,4 +2,43 @@ page-product {
     .toolbar-background {
         background: #3d749d;
     }
+    ion-content .scroll-content {
+        padding: 0 0 61px!important;
+    }
+    .back {
+        border-bottom: 0.5px solid #e0e0e0d9;
+        padding: 10px 10px;
+        margin-top: 0;
+    }
+    ion-slides {
+        height: 50%!important;
+    }
+    .title {
+        font-size: 16px;
+    }
+    .detail {
+        color: #333;
+        padding-left: 20px;
+    }
+    .detail li {
+        margin-bottom: 5px;
+    }
+    ;
+    .detail li::before {
+        content: ">>";
+        color: #f89a27;
+        margin-right: 5px;
+    }
+    .bag {
+        border-radius: 0;
+        position: fixed;
+        bottom: 0;
+        margin: 0;
+        background-color: #f89a27;
+        color: #ffffff;
+    }
+    .swiper-pagination-bullet-active {
+        background: #f89a27;
+        opacity: 1;
+    }
 }
