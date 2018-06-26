@@ -18,13 +18,13 @@ export class MyApp {
   // rootPage: any = LoginPage;
   // rootPage: any = HomePage;
   // rootPage: any = ProductPage;
-  rootPage: any = PerfumePage;
+  rootPage: any = HomePage;
 
   pages: Array<{title: string, component: any}>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
-
+// TODO CHeck this
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePage },
