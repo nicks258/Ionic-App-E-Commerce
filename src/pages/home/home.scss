@@ -1,18 +1,183 @@
 page-home {
     .toolbar-background {
-        background: #3d749d;
+        background: #e8f0f8;
     }
     .toolbar-title {
         color: #fff;
     }
     .cart {
-        color: #f89a27;
+        color: #333333;
         float: right;
         background-color: transparent;
         box-shadow: unset;
+        padding: 0 0.5em;
     }
     .scroll-content {
-        padding: 0px!important;
+        background: #e8f0f8;
+        margin-top: 45px!important;
+        padding: 16px 0 0!important;
+    }
+    .nav {
+        overflow-x: auto;
+        overflow-y: hidden;
+        height: 65px;
+        white-space: nowrap;
+        background: #3d749d;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+    .nav ul {
+        font-size: 18px;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        white-space: nowrap;
+        text-align: center;
+    }
+    .nav ul li {
+        float: none;
+        display: inline-block;
+    }
+    .nav ul li a {
+        float: none;
+        padding: 18px 22px;
+        color: #fff;
+    }
+    .nav ul li a:active {
+        color: #fcb85c;
+    }
+    .product-box {
+        background-color: #ffffff;
+        padding: 10px;
+    }
+    .product-box h3 {
+        color: #3c769c;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    .product-box p {
+        line-height: 22px;
+    }
+    .product-box h4 {
+        font-size: 18px;
+        color: #3c769c;
+        font-weight: 600;
+    }
+    .product-box hr {
+        border-top: 4px solid #f59b3a;
+        padding: 0px;
+        margin: 6px -15px 5px -15px;
+    }
+    .cart_box {
+        box-shadow: 0 -4px 4px -4px #ccc;
+        padding: 5px 5px 5px 0px;
+        clear: both;
+        background-color: #ccddee;
+    }
+    .cart_box h4 {
+        font-size: 19px;
+        padding: 12px;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+    .cart_box button {
+        padding: 10px 16px;
+        font-size: 16px;
+        line-height: 1.3333333;
+        border-radius: 6px;
+        color: #fff;
+        background-color: #337ab7;
+        border-color: #2e6da4;
+        display: block;
+        margin: auto;
+    }
+    .cart_box button ion-icon {
+        margin-right: 10px;
+    }
+    .read {
+        background-color: #f59b3a;
+        padding: 10px 0px 10px 0px;
+        margin-top: 10px;
+    }
+    .read button {
+        display: block;
+        margin: auto;
+    }
+    .mor {
+        margin: 20px;
+    }
+    .more {
+        background: #3f739b;
+        border-radius: 4px;
+        font-size: 30px;
+        display: block;
+        text-align: center;
+        color: #fff;
+        padding: 11px;
+        width: 220px;
+        font-weight: 700;
+        margin: auto;
+    }
+    .more::after,
+    .more::before {
+        content: "";
+        height: 2px;
+        width: 50px;
+        background-color: #333;
+    }
+    .productcatgory {
+        background-color: #ffffff;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        background-clip: padding-box;
+        padding-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .productcatgory .title {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-top: 1px solid #dfdfdf;
+        overflow: visible;
+        position: relative;
+    }
+    .productcatgory .title p {
+        margin: -26px auto 0;
+        padding: 15px;
+        background: #eee;
+        float: none;
+        text-align: center;
+        width: 50%;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+    .productcatgory .title button {
+        position: absolute;
+        right: 0;
+        top: -22px;
+        float: right;
+        line-height: 38px;
+        padding: 0 10px;
+        background: #f6952c;
+        border: 2px solid #f6952c;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 0px;
+        font-size: 12px;
+    }
+    .productcatgory h4 {
+        font-size: 18px;
+        color: #3c769c;
+        font-weight: 600;
+    }
+    .productcatgory hr {
+        border-top: 4px solid #f59b3a;
+        padding: 0px;
+        margin: 6px -15px 5px -15px;
     }
     ion-slides {
         height: 50%!important;

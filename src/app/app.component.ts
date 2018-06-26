@@ -8,6 +8,9 @@ import { LoginPage } from '../pages/login/login';
 import { SignupPage } from '../pages/signup/signup';
 import { ProductPage } from '../pages/product/product';
 import { PerfumePage } from '../pages/perfume/perfume';
+import { HisPage } from '../pages/his/his';
+import { HerPage } from '../pages/her/her';
+import { SetPage } from '../pages/set/set';
 
 @Component({
   templateUrl: 'app.html'
