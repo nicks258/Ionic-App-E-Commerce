@@ -18,7 +18,8 @@ page-product {
     }
     .detail {
         color: #333;
-        padding-left: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .detail li {
         margin-bottom: 5px;
@@ -36,6 +37,7 @@ page-product {
         margin: 0;
         background-color: #f89a27;
         color: #ffffff;
+        padding: 2.2rem 2.6rem;
     }
     .swiper-pagination-bullet-active {
         background: #f89a27;

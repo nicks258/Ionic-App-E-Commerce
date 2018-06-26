@@ -14,3 +14,20 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+.item-inner
+{
+    border-bottom: none!important;
+}
+.nav-button
+{
+    background-color: #ffffff;
+    border-radius: 6px;
+    color: #f8a136;
+    font-size: 12px;
+    box-shadow: none;
+    border: 1px solid #f8a136;
+    padding: 1.5rem 5.6rem;
+    display: block;
+    margin: auto;
+}
