@@ -1,3 +1,50 @@
 page-cart {
-
+    .toolbar-background {
+        background: #e8f0f8;
+    }
+    .toolbar-title {
+        color: #fff;
+    }
+    .cart {
+        color: #333333;
+        float: right;
+        background-color: transparent;
+        box-shadow: unset;
+        padding: 0 0.5em;
+    }
+    .scroll-content {
+        background: #e8f0f8;
+        margin-top: 45px!important;
+        padding: 16px 0 0!important;
+    }
+    .nav {
+        overflow-x: auto;
+        overflow-y: hidden;
+        height: 65px;
+        white-space: nowrap;
+        background: #3d749d;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+    .nav ul {
+        font-size: 18px;
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        white-space: nowrap;
+        text-align: center;
+    }
+    .nav ul li {
+        float: none;
+        display: inline-block;
+    }
+    .nav ul li a {
+        float: none;
+        padding: 18px 22px;
+        color: #fff;
+    }
+    .nav ul li a:active {
+        color: #fcb85c;
+    }
 }

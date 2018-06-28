@@ -19,7 +19,7 @@ import { SetPage } from '../set/set';
   templateUrl: 'perfume.html',
   template: `
   <ion-tabs>
-    <ion-tab  [root]="tab1" tabTitle="His"></ion-tab>
+    <ion-tab tabTitle="His"  [root]="tab1" ></ion-tab>
     <ion-tab tabTitle="Her"  [root]="tab2"></ion-tab>
     <ion-tab tabTitle="Set"  [root]="tab3"></ion-tab>
   </ion-tabs>`
