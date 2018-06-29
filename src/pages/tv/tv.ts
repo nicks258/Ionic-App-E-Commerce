@@ -15,22 +15,22 @@ import { SkyPage } from '../sky/sky';
 @Component({
   selector: 'page-tv',
   templateUrl: 'tv.html',
-  template: `
-  <ion-tabs>
-    <ion-tab tabTitle="Sharp"  [root]="tab1" ></ion-tab>
-    <ion-tab tabTitle="Orca"  [root]="tab2"></ion-tab>
-    <ion-tab tabTitle="Sky"  [root]="tab3"></ion-tab>
-  </ion-tabs>`
+  // template: `
+  // <ion-tabs>
+  //   <ion-tab tabTitle="Sharp"  [root]="tab1" ></ion-tab>
+  //   <ion-tab tabTitle="Orca"  [root]="tab2"></ion-tab>
+  //   <ion-tab tabTitle="Sky"  [root]="tab3"></ion-tab>
+  // </ion-tabs>`
 })
 export class TvPage {
 
-  tab1: any;
-  tab2: any;
-  tab3: any;
+  // tab1: any;
+  // tab2: any;
+  // tab3: any;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.tab1 = SharpPage;
-    this.tab2 = OrcaPage;
-    this.tab3 = SkyPage;
+    // this.tab1 = SharpPage;
+    // this.tab2 = OrcaPage;
+    // this.tab3 = SkyPage;
   }
 
   ionViewDidLoad() {

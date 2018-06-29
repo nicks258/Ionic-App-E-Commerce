@@ -5,6 +5,7 @@ page-tv {
     .scroll-content {
         margin-top: 12%!important;
       margin-bottom: 0!important;
+      padding:16px 0 0!important;
     }
   .cart {
     color: #333333;
@@ -59,7 +60,7 @@ page-tv {
     color: #fff;
     margin: 0;
     padding: 0;
-    position: fixed;
+   
   }
   .nav ul {
     font-size: 18px;
@@ -79,6 +80,39 @@ page-tv {
     color: #fff;
   }
   .nav ul li a:active {
+    color: #fcb85c;
+  }
+
+  .category_list {
+    height: 50px;
+    white-space: nowrap;
+    background: #f89a27;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+   
+  }
+  .category_list ul {
+    font-size: 18px;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    white-space: nowrap;
+    text-align: center;
+    margin: 15px 0!important;
+    width: 100%;
+  }
+  .category_list ul li {
+    float: none;
+    display: inline-block;
+    width:33.33%;
+  }
+  .category_list ul li a {
+    float: none;
+    padding: 18px 22px;
+    color: #fff;
+  }
+  .category_list ul li a:active {
     color: #fcb85c;
   }
 
