@@ -26,7 +26,7 @@ export class MyApp {
   // rootPage: any = LoginPage;
   // rootPage: any = HomePage;
   // rootPage: any = ProductPage;
-  rootPage: any = CartPage;
+  rootPage: any = TvPage;
 
   pages: Array<{title: string, component: any}>;
 

@@ -1,10 +1,18 @@
 page-perfume {
     .toolbar-background {
-        background: #3d749d;
+        background: #e8f0f8;
     }
     .scroll-content {
-        padding: 16px 0 0!important;
+      margin-top: 31%!important;
+      margin-bottom: 0!important;
     }
+  .cart {
+    color: #333333;
+    float: right;
+    background-color: transparent;
+    box-shadow: unset;
+    padding: 0 0.5em;
+  }
     .bag {
         border-radius: 0;
         position: fixed;
@@ -29,6 +37,9 @@ page-perfume {
     }
     .tabbar {
         background: #f89a27!important;
+      top: 60px;
+      bottom: unset!important;
+      padding: 5px;
     }
     .tab-button {
         color: #333!important;

@@ -8,10 +8,10 @@
         <button ion-button class="cart">
             <ion-icon name="search"></ion-icon>
         </button>
-        <button ion-button class="cart">
+        <button (click)="goToLoginPage()" ion-button class="cart">
             <ion-icon name="person"></ion-icon>
         </button>
-        <button ion-button class="cart">
+        <button (click)="goToCartPage()" ion-button class="cart">
             <ion-icon name="cart"></ion-icon>
         </button>
     </ion-navbar>
@@ -25,8 +25,8 @@
         <ul>
             <li><a class="active">Main Deal</a></li>
             <li><a>Sumo Offers</a></li>
-            <li><a>Perfume</a></li>
-            <li><a>TV's</a></li>
+            <li><a (click)="goToPerfumePage()">Perfume</a></li>
+            <li><a (click)="goToTvPage()">TV's</a></li>
         </ul>
     </ion-row>
 
