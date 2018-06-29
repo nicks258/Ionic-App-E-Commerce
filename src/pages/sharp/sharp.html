@@ -14,10 +14,10 @@
     <button ion-button class="cart">
       <ion-icon name="search"></ion-icon>
     </button>
-    <button ion-button class="cart">
+    <button (click)="goToLoginPage()" ion-button class="cart">
       <ion-icon name="person"></ion-icon>
     </button>
-    <button ion-button class="cart">
+    <button (click)="goToCartPage()" ion-button class="cart">
       <ion-icon name="cart"></ion-icon>
     </button>
   </ion-navbar>
@@ -37,12 +37,12 @@
 
       <ion-row class="category_list">
         <ul>
-          <li><a class="active">Sharp</a></li>
-          <li><a>Orca</a></li>
-          <li><a (click)="goToPerfumePage()">Sky</a></li>
+          <li><a (click)="goToSharpPage()" class="active">Sharp</a></li>
+          <li><a (click)="goToOrcaPage()">Orca</a></li>
+          <li><a (click)="goToSkyPage()">Sky</a></li>
         </ul>
       </ion-row>
-  
+
     <div class="cat_product">
         <img src="assets/imgs/tv.jpg">
         <p>Lorem Ipsum</p>

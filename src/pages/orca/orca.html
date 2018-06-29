@@ -1,5 +1,5 @@
 <!--
-  Generated template for the OrcaPage page.
+  Generated template for the SharpPage page.
 
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
@@ -14,10 +14,10 @@
     <button ion-button class="cart">
       <ion-icon name="search"></ion-icon>
     </button>
-    <button ion-button class="cart">
+    <button (click)="goToLoginPage()"  ion-button class="cart">
       <ion-icon name="person"></ion-icon>
     </button>
-    <button ion-button class="cart">
+    <button (click)="goToCartPage()" ion-button class="cart">
       <ion-icon name="cart"></ion-icon>
     </button>
   </ion-navbar>
@@ -25,61 +25,62 @@
 
 
 <ion-content padding>
-       <ion-row class="nav">
-        <ul>
-          <li><a class="active">Main Deal</a></li>
-          <li><a>Sumo Offers</a></li>
-          <li><a (click)="goToPerfumePage()">Perfume</a></li>
-          <li><a (click)="goToTvPage()">TV's</a></li>
-        </ul>
-      </ion-row>
 
-      <ion-row class="category_list">
-        <ul>
-          <li><a class="active">Sharp</a></li>
-          <li><a>Orca</a></li>
-          <li><a (click)="goToPerfumePage()">Sky</a></li>
-        </ul>
-      </ion-row>
+  <ion-row class="nav">
+    <ul>
+      <li><a class="active">Main Deal</a></li>
+      <li><a>Sumo Offers</a></li>
+      <li><a (click)="goToPerfumePage()">Perfume</a></li>
+      <li><a (click)="goToTvPage()">TV's</a></li>
+    </ul>
+  </ion-row>
 
-    <div class="cat_product">
-        <img src="assets/imgs/skyworth43.jpg">
-        <p>Lorem Ipsum</p>
-        <p>Kd65</p>
-    </div>
-    <div class="cat_product">
-        <img src="assets/imgs/skyworth43.jpg">
-        <p>Lorem Ipsum</p>
-        <p>Kd65</p>
-    </div>
-    <div class="cat_product">
-        <img src="assets/imgs/skyworth43.jpg">
-        <p>Lorem Ipsum</p>
-        <p>Kd65</p>
-    </div>
-    <div class="cat_product">
-        <img src="assets/imgs/skyworth43.jpg">
-        <p>Lorem Ipsum</p>
-        <p>Kd65</p>
-    </div>
-    <div class="cat_product">
-        <img src="assets/imgs/skyworth43.jpg">
-        <p>Lorem Ipsum</p>
-        <p>Kd65</p>
-    </div>
-    <div class="cat_product">
-        <img src="assets/imgs/skyworth43.jpg">
-        <p>Lorem Ipsum</p>
-        <p>Kd65</p>
-    </div>
-    <div class="cat_product">
-        <img src="assets/imgs/skyworth43.jpg">
-        <p>Lorem Ipsum</p>
-        <p>Kd65</p>
-    </div>
-    <div class="cat_product">
-        <img src="assets/imgs/skyworth43.jpg">
-        <p>Lorem Ipsum</p>
-        <p>Kd65</p>
-    </div>
+  <ion-row class="category_list">
+    <ul>
+      <li><a (click)="goToSharpPage()" class="active">Sharp</a></li>
+      <li><a (click)="goToOrcaPage()">Orca</a></li>
+      <li><a (click)="goToSkyPage()">Sky</a></li>
+    </ul>
+  </ion-row>
+
+  <div class="cat_product">
+    <img src="assets/imgs/tv.jpg">
+    <p>Lorem Ipsum</p>
+    <p>Kd65</p>
+  </div>
+  <div class="cat_product">
+    <img src="assets/imgs/tv.jpg">
+    <p>Lorem Ipsum</p>
+    <p>Kd65</p>
+  </div>
+  <div class="cat_product">
+    <img src="assets/imgs/tv.jpg">
+    <p>Lorem Ipsum</p>
+    <p>Kd65</p>
+  </div>
+  <div class="cat_product">
+    <img src="assets/imgs/tv.jpg">
+    <p>Lorem Ipsum</p>
+    <p>Kd65</p>
+  </div>
+  <div class="cat_product">
+    <img src="assets/imgs/tv.jpg">
+    <p>Lorem Ipsum</p>
+    <p>Kd65</p>
+  </div>
+  <div class="cat_product">
+    <img src="assets/imgs/tv.jpg">
+    <p>Lorem Ipsum</p>
+    <p>Kd65</p>
+  </div>
+  <div class="cat_product">
+    <img src="assets/imgs/tv.jpg">
+    <p>Lorem Ipsum</p>
+    <p>Kd65</p>
+  </div>
+  <div class="cat_product">
+    <img src="assets/imgs/tv.jpg">
+    <p>Lorem Ipsum</p>
+    <p>Kd65</p>
+  </div>
 </ion-content>

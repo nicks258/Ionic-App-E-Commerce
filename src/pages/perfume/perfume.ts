@@ -3,6 +3,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { HisPage } from '../his/his';
 import { HerPage } from '../her/her';
 import { SetPage } from '../set/set';
+import {LoginPage} from "../login/login";
+import {ProductPage} from "../product/product";
+import {CartPage} from "../cart/cart";
+import {TvPage} from "../tv/tv";
 
 
 
@@ -37,5 +41,19 @@ export class PerfumePage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad PerfumePage');
   }
-
+  goToProductPage(){
+    this.navCtrl.push(ProductPage);
+  }
+  goToTvPage(){
+    this.navCtrl.push(TvPage);
+  }
+  goToPerfumePage(){
+    this.navCtrl.push(PerfumePage);
+  }
+  goToLoginPage(){
+    this.navCtrl.push(LoginPage);
+  }
+  goToCartPage(){
+    this.navCtrl.push(CartPage);
+  }
 }

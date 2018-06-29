@@ -5,6 +5,12 @@ import {PerfumePage} from "../perfume/perfume";
 import {TvPage} from "../tv/tv";
 import {LoginPage} from "../login/login";
 import {CartPage} from "../cart/cart";
+import {HisPage} from "../his/his";
+import {HerPage} from "../her/her";
+import {SetPage} from "../set/set";
+import {SharpPage} from "../sharp/sharp";
+import {OrcaPage} from "../orca/orca";
+import {SkyPage} from "../sky/sky";
 
 @Component({
   selector: 'page-home',
@@ -19,10 +25,10 @@ export class HomePage {
     this.navCtrl.push(ProductPage);
   }
   goToTvPage(){
-    this.navCtrl.push(TvPage);
+    this.navCtrl.push(SharpPage);
   }
   goToPerfumePage(){
-    this.navCtrl.push(PerfumePage);
+    this.navCtrl.push(HerPage);
   }
   goToLoginPage(){
     this.navCtrl.push(LoginPage);

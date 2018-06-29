@@ -1,10 +1,10 @@
 page-set {
-    .toolbar-background {
-        background: #e8f0f8;
-    }
-    .scroll-content {
-        padding: 0!important;
-    }
+  .toolbar-background {
+    background: #e8f0f8;
+  }
+  .scroll-content {
+    padding: 0!important;
+  }
   .cart {
     color: #333333;
     float: right;
@@ -12,29 +12,38 @@ page-set {
     box-shadow: unset;
     padding: 0 0.5em;
   }
-    .bag {
-        border-radius: 0;
-        position: fixed;
-        bottom: 0;
-        margin: 0;
-        background-color: #f89a27;
-        color: #ffffff;
-        padding: 2.2rem 2.6rem;
-    }
-    .cat_product {
-        border: 0.5px solid #ccc;
-        width: 50%;
-        float: left;
-        background-color: #eeeeee;
-    }
-    .cat_product img {
-        display: block;
-        margin: auto;
-    }
-    .cat_product p {
-        margin: 5px;
-    }
-    .nav {
+  .bag {
+    border-radius: 0;
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    background-color: #f89a27;
+    color: #ffffff;
+    padding: 2.2rem 2.6rem;
+  }
+  .cat_product {
+    border: 0.5px solid #ccc;
+    width: 50%;
+    float: left;
+    background-color: #eeeeee;
+  }
+  .cat_product img {
+    display: block;
+    margin: auto;
+  }
+  .cat_product p {
+    margin: 5px;
+  }
+  .category_list {
+    height: 50px;
+    white-space: nowrap;
+    background: #f89a27;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+
+  }
+  .nav {
     overflow-x: auto;
     overflow-y: hidden;
     height: 65px;
@@ -43,7 +52,7 @@ page-set {
     color: #fff;
     margin: 0;
     padding: 0;
-   
+
   }
   .nav ul {
     font-size: 18px;
