@@ -8,6 +8,14 @@ import { LoginPage } from '../pages/login/login';
 import { SignupPage } from '../pages/signup/signup';
 import { ProductPage } from '../pages/product/product';
 import { PerfumePage } from '../pages/perfume/perfume';
+import { HisPage } from '../pages/his/his';
+import { HerPage } from '../pages/her/her';
+import { SetPage } from '../pages/set/set';
+import { TvPage } from '../pages/tv/tv';
+import { SharpPage } from '../pages/sharp/sharp';
+import { OrcaPage } from '../pages/orca/orca';
+import { SkyPage } from '../pages/sky/sky';
+import { CartPage } from '../pages/cart/cart';
 
 @Component({
   templateUrl: 'app.html'
@@ -18,7 +26,7 @@ export class MyApp {
   // rootPage: any = LoginPage;
   // rootPage: any = HomePage;
   // rootPage: any = ProductPage;
-  rootPage: any = HomePage;
+  rootPage: any = TvPage;
 
   pages: Array<{title: string, component: any}>;
 

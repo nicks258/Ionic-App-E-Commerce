@@ -1,25 +1,37 @@
 <ion-header>
     <ion-navbar>
-        <button ion-button menuToggle style="color: #f89a27">
+        <!-- <button ion-button menuToggle style="color: #f89a27">
       <ion-icon name="menu"></ion-icon>
-    </button>
+    </button> -->
+        <img src="assets/imgs/logo.png" style="width: 120px;margin-left: 15px;margin-top: 5px;">
 
         <button ion-button class="cart">
-          <ion-icon name="cart"></ion-icon>
+            <ion-icon name="search"></ion-icon>
+        </button>
+        <button (click)="goToLoginPage()" ion-button class="cart">
+            <ion-icon name="person"></ion-icon>
+        </button>
+        <button (click)="goToCartPage()" ion-button class="cart">
+            <ion-icon name="cart"></ion-icon>
         </button>
     </ion-navbar>
 </ion-header>
 <!--djhj-->
 <ion-content padding>
-    <div>
-        <img src="assets/imgs/Banner_Perfume_copy.jpg" (click)="goToProductPage()"  style="margin: auto;">
-    </div>
+    <!-- <div>
+        <img src="assets/imgs/Banner_Perfume_copy.jpg" (click)="goToProductPage()" style="margin: auto;">
+    </div> -->
+    <ion-row class="nav">
+        <ul>
+            <li><a class="active">Main Deal</a></li>
+            <li><a>Sumo Offers</a></li>
+            <li><a (click)="goToPerfumePage()">Perfume</a></li>
+            <li><a (click)="goToTvPage()">TV's</a></li>
+        </ul>
+    </ion-row>
 
-    <div style="padding: 10px; border-bottom: 0.5px solid #e0e0e0d9 ">
-        <div>
-            <p style=" display: inline-block; "><b>Main Deal</b></p>
-            <button (click)="goToProductPage()" ion-button class="view "><b>View All</b></button>
-        </div>
+    <div class="product-box">
+
 
         <ion-slides pager>
 
@@ -40,100 +52,201 @@
             </ion-slide>
 
         </ion-slides>
+
+        <h3>20cm Portable Plastic Sealer</h3>
+        <p text-justify>This plastic bag sealer should be in every kitchen or packing room. Creates airtight seal that locks in freshness. Even liquids won't leak. It has patented micro-thermal technology to heat and bond bags efficiently </p>
+        <div>
+            <a><img src="assets/imgs/facebook.png"></a>
+            <a><img src="assets/imgs/twitter.png"></a>
+            <a><img src="assets/imgs/whatsapp.png"></a>
+        </div>
+        <h4>Time Left</h4>
+        <h4>Timer</h4>
+        <hr>
     </div>
 
-    <div style="padding: 10px; border-bottom: 0.5px solid #e0e0e0d9 ">
+    <ion-row class="cart_box">
+        <ion-col col-6>
+            <h4>KD1.9</h4>
+        </ion-col>
+        <ion-col ion-6>
+            <button ion-button>
+                            <ion-icon name="cart"></ion-icon>
+                            Add to cart
+                    </button>
+        </ion-col>
+    </ion-row>
+
+
+    <div class="read">
+        <button ion-button>Read More</button>
+    </div>
+
+    <div>
+        <div class="mor">
+            <h2 class="more">
+                <ion-icon name="arrow-round-down"></ion-icon> More Deals
+                <ion-icon name="arrow-round-down"></ion-icon>
+            </h2>
+
+        </div>
+    </div>
+
+    <div class="productcatgory">
         <div>
-            <p (click)="goToProductPage()" style=" display: inline-block; "><b>Sumo Offers</b></p>
-            <button (click)="goToProductPage()" ion-button class="view "><b>View All</b></button>
+
+            <ion-row class="title">
+                <p (click)="goToProductPage()" class=""><b>Sumo Offers</b></p>
+                <button (click)="goToProductPage()" ion-button class="view "><b>View All</b></button>
+            </ion-row>
+
+
+            <ion-slides pager>
+
+                <ion-slide>
+                    <img src="assets/imgs/1-1_3_88.jpg" (click)="goToProductPage()">
+
+                </ion-slide>
+
+                <ion-slide>
+                    <img src="assets/imgs/1-1_3_88.jpg" (click)="goToProductPage()">
+
+                </ion-slide>
+
+                <ion-slide>
+                    <img src="assets/imgs/1-1_3_88.jpg" (click)="goToProductPage()">
+
+                </ion-slide>
+
+                <ion-slide>
+                    <img src="assets/imgs/1-1_3_88.jpg" (click)="goToProductPage()">
+
+                </ion-slide>
+
+            </ion-slides>
+            <h3>20cm Portable Plastic Sealer</h3>
+            <h4>Timer</h4>
+            <hr>
         </div>
 
-        <ion-slides pager>
+        <ion-row class="cart_box">
+            <ion-col col-6>
+                <h4>KD1.9</h4>
+            </ion-col>
+            <ion-col ion-6>
+                <button ion-button>
+                            <ion-icon name="cart"></ion-icon>
+                            Add to cart
+                    </button>
+            </ion-col>
+        </ion-row>
 
-            <ion-slide>
-                <img src="assets/imgs/1-1_3_88.jpg" (click)="goToProductPage()">
-                <h3>Sumo 1800 Mixture Grinder</h3>
-            </ion-slide>
+        <div style="padding-top: 30px;">
 
-            <ion-slide>
-                <img src="assets/imgs/1-1_3_88.jpg" (click)="goToProductPage()">
-                <h3>Sumo 1800 Mixture Grinder</h3>
-            </ion-slide>
+            <ion-row class="title">
+                <p (click)="goToProductPage()" class=""><b>Perfumes</b></p>
+                <button (click)="goToProductPage()" ion-button class="view "><b>View All</b></button>
+            </ion-row>
 
-            <ion-slide>
-                <img src="assets/imgs/1-1_3_88.jpg" (click)="goToProductPage()">
-                <h3>Sumo 1800 Mixture Grinder</h3>
-            </ion-slide>
 
-            <ion-slide>
-                <img src="assets/imgs/1-1_3_88.jpg" (click)="goToProductPage()">
-                <h3>Sumo 1800 Mixture Grinder</h3>
-            </ion-slide>
+            <ion-slides pager>
 
-        </ion-slides>
-    </div>
+                <ion-slide>
+                    <img (click)="goToProductPage()" src="assets/imgs/2203.jpg">
 
-    <div style="padding: 10px; border-bottom: 0.5px solid #e0e0e0d9 ">
-        <div>
-            <p (click)="goToProductPage()" style=" display: inline-block; "><b>Perfumes</b></p>
-            <button (click)="goToProductPage()" ion-button class="view "><b>View All</b></button>
+                </ion-slide>
+
+                <ion-slide>
+                    <img (click)="goToProductPage()" src="assets/imgs/2203.jpg">
+
+                </ion-slide>
+
+                <ion-slide>
+                    <img (click)="goToProductPage()" src="assets/imgs/2203.jpg">
+
+                </ion-slide>
+
+                <ion-slide>
+                    <img (click)="goToProductPage()" src="assets/imgs/2203.jpg">
+
+                </ion-slide>
+
+            </ion-slides>
+            <h3>Issey Miyake 100ml L'Eau D'issey EdT for Her </h3>
+            <h4>Timer</h4>
+            <hr>
         </div>
 
-        <ion-slides pager>
+        <ion-row class="cart_box">
+            <ion-col col-6>
+                <h4>KD1.9</h4>
+            </ion-col>
+            <ion-col ion-6>
+                <button ion-button>
+                                <ion-icon name="cart"></ion-icon>
+                                Add to cart
+                        </button>
+            </ion-col>
+        </ion-row>
 
-            <ion-slide>
-                <img (click)="goToProductPage()" src="assets/imgs/2203.jpg">
-                <h3>Issey Miyake 100ml L'Eau D'issey EdT for Her </h3>
-            </ion-slide>
+        <div style="padding-top: 30px;">
 
-            <ion-slide>
-                <img (click)="goToProductPage()" src="assets/imgs/2203.jpg">
-                <h3>Issey Miyake 100ml L'Eau D'issey EdT for Her </h3>
-            </ion-slide>
+            <ion-row class="title">
+                <p (click)="goToProductPage()" class=""><b>TV's</b></p>
+                <button (click)="goToProductPage()" ion-button class="view "><b>View All</b></button>
+            </ion-row>
 
-            <ion-slide>
-                <img (click)="goToProductPage()" src="assets/imgs/2203.jpg">
-                <h3>Issey Miyake 100ml L'Eau D'issey EdT for Her </h3>
-            </ion-slide>
 
-            <ion-slide>
-                <img (click)="goToProductPage()" src="assets/imgs/2203.jpg">
-                <h3>Issey Miyake 100ml L'Eau D'issey EdT for Her </h3>
-            </ion-slide>
+            <ion-slides pager>
 
-        </ion-slides>
-    </div>
+                <ion-slide>
+                    <img (click)="goToProductPage()" src="assets/imgs/led-65g6a11t_copy.jpg">
 
-    <div style="padding: 10px; border-bottom: 0.5px solid #e0e0e0d9 ">
-        <div>
-            <p (click)="goToProductPage()" style=" display: inline-block; "><b>TV's</b></p>
-            <button (click)="goToProductPage()" ion-button class="view "><b>View All</b></button>
+                </ion-slide>
+
+                <ion-slide>
+                    <img (click)="goToProductPage()" src="assets/imgs/led-65g6a11t_copy.jpg">
+
+                </ion-slide>
+
+                <ion-slide>
+                    <img (click)="goToProductPage()" src="assets/imgs/led-65g6a11t_copy.jpg">
+
+                </ion-slide>
+
+                <ion-slide>
+                    <img (click)="goToProductPage()" src="assets/imgs/led-65g6a11t_copy.jpg">
+
+                </ion-slide>
+
+            </ion-slides>
+            <h3>Sharp 32" FULL HD LED TV</h3>
+            <h4>Timer</h4>
+            <hr>
         </div>
 
-        <ion-slides pager>
-
-            <ion-slide>
-                <img (click)="goToProductPage()" src="assets/imgs/led-65g6a11t_copy.jpg">
-                <h3>Sharp 32" FULL HD LED TV</h3>
-            </ion-slide>
-
-            <ion-slide>
-                <img (click)="goToProductPage()" src="assets/imgs/led-65g6a11t_copy.jpg">
-                <h3>Sharp 32" FULL HD LED TV</h3>
-            </ion-slide>
-
-            <ion-slide>
-                <img (click)="goToProductPage()" src="assets/imgs/led-65g6a11t_copy.jpg">
-                <h3>Sharp 32" FULL HD LED TV</h3>
-            </ion-slide>
-
-            <ion-slide>
-                <img (click)="goToProductPage()" src="assets/imgs/led-65g6a11t_copy.jpg">
-                <h3>Sharp 32" FULL HD LED TV</h3>
-            </ion-slide>
-
-        </ion-slides>
+        <ion-row class="cart_box">
+            <ion-col col-6>
+                <h4>KD1.9</h4>
+            </ion-col>
+            <ion-col ion-6>
+                <button ion-button>
+                                    <ion-icon name="cart"></ion-icon>
+                                    Add to cart
+                            </button>
+            </ion-col>
+        </ion-row>
     </div>
+
+    <ion-row style="margin: 20px;">
+        <a>
+            <img src="assets/imgs/Banner_Perfume_copy.jpg">
+        </a>
+    </ion-row>
+
+
+
+
 
 
 

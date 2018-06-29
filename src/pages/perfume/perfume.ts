@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { HomePage } from '../home/home';
-import { ProductPage } from '../product/product';
+import { HisPage } from '../his/his';
+import { HerPage } from '../her/her';
+import { SetPage } from '../set/set';
 
 
 
@@ -18,9 +19,9 @@ import { ProductPage } from '../product/product';
   templateUrl: 'perfume.html',
   template: `
   <ion-tabs>
-    <ion-tab tabIcon="heart"  [root]="tab1"></ion-tab>
-    <ion-tab tabIcon="contact"  [root]="tab2"></ion-tab>
-    <ion-tab tabIcon="star"  [root]="tab3"></ion-tab>
+    <ion-tab tabTitle="His"  [root]="tab1" ></ion-tab>
+    <ion-tab tabTitle="Her"  [root]="tab2"></ion-tab>
+    <ion-tab tabTitle="Set"  [root]="tab3"></ion-tab>
   </ion-tabs>`
 })
 export class PerfumePage {
@@ -28,9 +29,9 @@ export class PerfumePage {
   tab2: any;
   tab3: any;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.tab1 = HomePage;
-    this.tab2 = HomePage;
-    this.tab3 = ProductPage;
+    this.tab1 = HisPage;
+    this.tab2 = HerPage;
+    this.tab3 = SetPage;
   }
 
   ionViewDidLoad() {

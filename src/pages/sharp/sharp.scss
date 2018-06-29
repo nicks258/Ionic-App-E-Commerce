@@ -1,10 +1,9 @@
-page-perfume {
+page-sharp {
     .toolbar-background {
         background: #e8f0f8;
     }
     .scroll-content {
-      margin-top: 31%!important;
-      margin-bottom: 0!important;
+        padding: 16px 0 0!important;
     }
   .cart {
     color: #333333;
@@ -34,20 +33,5 @@ page-perfume {
     }
     .cat_product p {
         margin: 5px;
-    }
-    .tabbar {
-        background: #f89a27!important;
-      top: 60px;
-      bottom: unset!important;
-      padding: 5px;
-    }
-    .tab-button {
-        color: #333!important;
-    }
-    .tab-button[aria-selected=true] {
-        color: #ffffff!important;
-    }
-    .tab-button-text {
-        font-size: 1.6rem!important;
     }
 }

@@ -1,7 +1,14 @@
 page-product {
     .toolbar-background {
-        background: #3d749d;
+        background: #e8f0f8;
     }
+  .cart {
+    color: #333333;
+    float: right;
+    background-color: transparent;
+    box-shadow: unset;
+    padding: 0 0.5em;
+  }
     ion-content .scroll-content {
         padding: 0 0 61px!important;
     }
@@ -43,4 +50,8 @@ page-product {
         background: #f89a27;
         opacity: 1;
     }
+  .bar-button
+  {
+    color: #ffffff;
+  }
 }

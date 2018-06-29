@@ -1,10 +1,9 @@
-page-perfume {
+page-sky {
     .toolbar-background {
         background: #e8f0f8;
     }
     .scroll-content {
-      margin-top: 31%!important;
-      margin-bottom: 0!important;
+        padding: 16px 0 0!important;
     }
   .cart {
     color: #333333;
@@ -35,19 +34,35 @@ page-perfume {
     .cat_product p {
         margin: 5px;
     }
-    .tabbar {
-        background: #f89a27!important;
-      top: 60px;
-      bottom: unset!important;
-      padding: 5px;
-    }
-    .tab-button {
-        color: #333!important;
-    }
-    .tab-button[aria-selected=true] {
-        color: #ffffff!important;
-    }
-    .tab-button-text {
-        font-size: 1.6rem!important;
-    }
+  .nav {
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 65px;
+    white-space: nowrap;
+    background: #3d749d;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+  }
+  .nav ul {
+    font-size: 18px;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    white-space: nowrap;
+    text-align: center;
+  }
+  .nav ul li {
+    float: none;
+    display: inline-block;
+  }
+  .nav ul li a {
+    float: none;
+    padding: 18px 22px;
+    color: #fff;
+  }
+  .nav ul li a:active {
+    color: #fcb85c;
+  }
 }

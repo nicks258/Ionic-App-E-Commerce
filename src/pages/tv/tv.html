@@ -5,14 +5,34 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-
   <ion-navbar>
-    <ion-title>tv</ion-title>
-  </ion-navbar>
+    <!-- <button ion-button menuToggle style="color: #f89a27">
+  <ion-icon name="menu"></ion-icon>
+</button> -->
+    <img src="assets/imgs/logo.png" style="width: 120px;margin-left: 15px;margin-top: 5px;">
 
+    <button ion-button class="cart">
+      <ion-icon name="search"></ion-icon>
+    </button>
+    <button ion-button class="cart">
+      <ion-icon name="person"></ion-icon>
+    </button>
+    <button ion-button class="cart">
+      <ion-icon name="cart"></ion-icon>
+    </button>
+  </ion-navbar>
 </ion-header>
 
 
 <ion-content padding>
+
+  <ion-row class="nav">
+    <ul>
+      <li><a class="active">Main Deal</a></li>
+      <li><a>Sumo Offers</a></li>
+      <li><a (click)="goToPerfumePage()">Perfume</a></li>
+      <li><a (click)="goToTvPage()">TV's</a></li>
+    </ul>
+  </ion-row>
 
 </ion-content>
